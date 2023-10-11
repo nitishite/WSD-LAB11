@@ -1,0 +1,90 @@
+/* App.css */
+
+body {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  color: #fff;
+  background-image:linear-gradient(transparent, yellow);
+
+}
+
+.grid-container {
+  border: 1px solid #fff;
+  padding: 30px;
+  border-radius: 5px;
+  /* background-color: #000 !important; */
+  background-image:linear-gradient(transparent, red, green);
+  box-shadow: 10px 10px 10px red, 15px 15px 5px green, 20px 20px 5px blue;
+  border:2px solid blue;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.grid-container h2 {
+  font-family: Anton;
+  color: white;
+  background-color:#333;
+  /* -webkit-text-stroke:2.3px; */
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.grid-container form {
+  background-color: #000 !important;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-container ul {
+  background-color: #000 !important;
+  color: white;
+  list-style: none;
+  padding: 0;
+}
+
+.grid-container li {
+  background-color: #000 !important;
+  color: white;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-container button {
+  background-color: #ff5733;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 60px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.grid-container button:hover {
+  background-color: #ff3216;
+}
+
+#any{
+  background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 80px;
+    height: 30px;
+    margin-right: 5px;
+}
